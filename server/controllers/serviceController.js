@@ -1,6 +1,6 @@
 
 import Service from "../models/service.model.js";
-import fileUpload from "../service/Multer.js";
+import fileUpload from "../service/multer.js";
 
 export const createService = async (req, res) => {
   try {
