@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="font-family: Arial, sans-serif; padding: 20px;">
+  <h2 style="color: #10b981;">Meeting Confirmation</h2>
+  
+  <p>Dear {{clientName}},</p>
+
+  <p>Your meeting has been successfully scheduled. Below are the details:</p>
+
+  <table style="border-collapse: collapse;">
+    <tr>
+      <td><strong>Subject:</strong></td>
+      <td>{{subject}}</td>
+    </tr>
+    <tr>
+      <td><strong>Date:</strong></td>
+      <td>{{DOM}}</td>
+    </tr>
+    <tr>
+      <td><strong>Location:</strong></td>
+      <td>{{location}}</td>
+    </tr>
+    <tr>
+      <td><strong>Meeting Type:</strong></td>
+      <td>{{meetingType}}</td>
+    </tr>
+    <tr>
+      <td><strong>Meeting Link:</strong></td>
+      <td><a href="{{meetingUrl}}">Join Meeting</a></td>
+    </tr>
+  </table>
+
+  <p style="margin-top: 20px;">
+    We look forward to meeting you.
+  </p>
+
+  <p>Best Regards,<br/>Your Company Team</p>
+</div>
+</body>
+</html>
